@@ -1,0 +1,11 @@
+{
+  "server": {
+    "name": "plex-monitor",
+    "version": "0.1.0",
+    "port": 3344
+  },
+  "plex": {
+    "logdir": "/tmp/plex",
+    "uploads": "/tmp/plex/uploads"
+  }
+}

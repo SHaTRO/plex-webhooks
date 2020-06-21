@@ -1,0 +1,38 @@
+{
+  "name": "plex-webhooks",
+  "version": "0.1.0",
+  "description": "Server for receiving plex webhooks. Useful for automation or action related local scripting.",
+  "main": "./dist/lib/index.js",
+  "types": "./dist/lib/index.d.ts",
+  "scripts": {
+    "clean:dist": "rm -rf dist",
+    "clean:node_modules": "rm -rf node_modules",
+    "clean:all": "(npm run clean:node_modules) && (npm run clean:dist)",
+    "clean": "npm run clean:all",
+    "build:ts": "tsc --declaration",
+    "build:full": "(npm run clean:all) && (npm install) && (npm run build:ts)",
+    "build": "(npm run clean:dist) && (npm run build:ts)"
+  },
+  "keywords": [
+    "plex",
+    "webhook",
+    "api",
+    "express"
+  ],
+  "author": "Steve Harris",
+  "license": "MIT",
+  "dependencies": {
+    "@types/config": "0.0.36",
+    "@types/express": "^4.17.6",
+    "@types/fs-extra": "^9.0.1",
+    "@types/morgan": "^1.9.1",
+    "@types/multer": "^1.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "typescript": "^3.9.5",
+    "winston": "^3.2.1"
+  }
+}
