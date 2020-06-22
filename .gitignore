@@ -1,3 +1,6 @@
+# Test data dirs
+test/data
+
 # Logs
 logs
 *.log

@@ -1,0 +1,6 @@
+{ 
+  "plex": {
+    "logdir": "./test/data/logdir",
+    "uploads": "./test/data/uploads"
+  }
+}
