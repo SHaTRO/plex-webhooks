@@ -3,7 +3,7 @@ import { MulterFiles, PlexHandler, PlexHandlerFunction } from '..';
 
 interface PlexHandlerMap {
   [ event: string ]: PlexHandler[];
-};
+}
 
 /** 
  * Dispatcher class for registering and dispatching PlexHandlerFunction. 

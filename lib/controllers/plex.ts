@@ -19,7 +19,7 @@ export interface FileInfo {
   fieldname: string;
   mimetype: string;
   size: number;
-};
+}
 
 function toFileInfo(file: Express.Multer.File): FileInfo {
   const { path, fieldname, mimetype, size } = file;

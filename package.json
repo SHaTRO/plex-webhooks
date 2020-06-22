@@ -12,6 +12,7 @@
     "build:ts": "tsc --declaration",
     "build:full": "(npm run clean:all) && (npm install) && (npm run build:ts)",
     "build": "(npm run clean:dist) && (npm run build:ts)",
+    "lint": "eslint 'lib/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "./node_modules/.bin/jest --coverage"
   },
   "keywords": [
@@ -41,11 +42,18 @@
     "@types/jest": "^26.0.0",
     "@types/source-map-support": "^0.5.1",
     "@types/supertest": "^2.0.9",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
     "chai": "^4.2.0",
+    "eslint": "^7.3.0",
     "jest": "^26.0.1",
     "source-map-support": "^0.5.19",
     "supertest": "^4.0.2",
     "ts-jest": "^26.1.0",
     "tslib": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SHaTRO/plex-webhooks.git"
   }
 }
