@@ -1,4 +1,4 @@
-# plex-webhooks v.0.1.0
+# plex-webhooks v.0.1
 
 ## Introduction
 
