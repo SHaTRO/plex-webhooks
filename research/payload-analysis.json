@@ -1,0 +1,748 @@
+{
+  "media.play": {
+    "event": "string",
+    "user": "boolean",
+    "owner": "boolean",
+    "Account": {
+      "id": "number",
+      "thumb": "URL",
+      "title": "string"
+    },
+    "Server": {
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Player": {
+      "local": "boolean",
+      "publicAddress": "string",
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Metadata": {
+      "librarySectionType": "string",
+      "ratingKey": "string",
+      "key": "PATH",
+      "guid": "URL",
+      "studio": "string",
+      "type": "string",
+      "title": "string",
+      "contentRating": "string",
+      "summary": "string",
+      "rating": "number",
+      "audienceRating": "number",
+      "viewOffset": "number",
+      "lastViewedAt": "number",
+      "year": "number",
+      "tagline": "string",
+      "thumb": "PATH",
+      "art": "PATH",
+      "duration": "number",
+      "originallyAvailableAt": "string",
+      "addedAt": "number",
+      "updatedAt": "number",
+      "audienceRatingImage": "URL",
+      "chapterSource": "string",
+      "primaryExtraKey": "PATH",
+      "ratingImage": "URL",
+      "Genre": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Director": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Writer": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Producer": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Country": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Role": [
+        {
+          "id": "number",
+          "tag": "string",
+          "role": "string",
+          "thumb": "URL",
+          "count": "number"
+        }
+      ],
+      "Similar": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "cinemaTrailer": "boolean",
+      "index": "number",
+      "subtype": "string",
+      "extraType": "number",
+      "viewCount": "number",
+      "genuineMediaAnalysis": "string",
+      "titleSort": "string",
+      "grandparentThumb": [
+        "URL",
+        "PATH"
+      ],
+      "grandparentTitle": "string",
+      "live": "string",
+      "parentIndex": "number",
+      "parentRatingKey": "string",
+      "grandparentRatingKey": "string",
+      "parentGuid": "URL",
+      "grandparentGuid": "URL",
+      "parentTitle": "string",
+      "parentThumb": "PATH",
+      "grandparentArt": "PATH",
+      "grandparentTheme": "PATH"
+    },
+    "fileInfo": [
+      {
+        "path": "PATH",
+        "fieldname": "string",
+        "mimetype": "string",
+        "size": "number"
+      }
+    ]
+  },
+  "media.resume": {
+    "event": "string",
+    "user": "boolean",
+    "owner": "boolean",
+    "Account": {
+      "id": "number",
+      "thumb": "URL",
+      "title": "string"
+    },
+    "Server": {
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Player": {
+      "local": "boolean",
+      "publicAddress": "string",
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Metadata": {
+      "librarySectionType": "string",
+      "ratingKey": "string",
+      "key": "PATH",
+      "guid": "URL",
+      "studio": "string",
+      "type": "string",
+      "title": "string",
+      "contentRating": "string",
+      "summary": "string",
+      "rating": "number",
+      "audienceRating": "number",
+      "viewOffset": "number",
+      "lastViewedAt": "number",
+      "year": "number",
+      "tagline": "string",
+      "thumb": "PATH",
+      "art": "PATH",
+      "duration": "number",
+      "originallyAvailableAt": "string",
+      "addedAt": "number",
+      "updatedAt": "number",
+      "audienceRatingImage": "URL",
+      "chapterSource": "string",
+      "primaryExtraKey": "PATH",
+      "ratingImage": "URL",
+      "Genre": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Director": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Writer": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Producer": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Country": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Role": [
+        {
+          "id": "number",
+          "tag": "string",
+          "role": "string",
+          "thumb": "URL",
+          "count": "number"
+        }
+      ],
+      "Similar": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "cinemaTrailer": "boolean",
+      "index": "number",
+      "viewCount": "number",
+      "genuineMediaAnalysis": "string",
+      "titleSort": "string",
+      "subtype": "string",
+      "extraType": "number"
+    }
+  },
+  "media.stop": {
+    "event": "string",
+    "user": "boolean",
+    "owner": "boolean",
+    "Account": {
+      "id": "number",
+      "thumb": "URL",
+      "title": "string"
+    },
+    "Server": {
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Player": {
+      "local": "boolean",
+      "publicAddress": "string",
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Metadata": {
+      "librarySectionType": "string",
+      "ratingKey": "string",
+      "key": "PATH",
+      "guid": "URL",
+      "studio": "string",
+      "type": "string",
+      "title": "string",
+      "contentRating": "string",
+      "summary": "string",
+      "rating": "number",
+      "audienceRating": "number",
+      "viewOffset": "number",
+      "lastViewedAt": "number",
+      "year": "number",
+      "tagline": "string",
+      "thumb": "PATH",
+      "art": "PATH",
+      "duration": "number",
+      "originallyAvailableAt": "string",
+      "addedAt": "number",
+      "updatedAt": "number",
+      "audienceRatingImage": "URL",
+      "chapterSource": "string",
+      "primaryExtraKey": "PATH",
+      "ratingImage": "URL",
+      "Genre": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Director": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Writer": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Producer": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Country": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Role": [
+        {
+          "id": "number",
+          "tag": "string",
+          "role": "string",
+          "thumb": "URL",
+          "count": "number"
+        }
+      ],
+      "Similar": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "index": "number",
+      "subtype": "string",
+      "extraType": "number",
+      "viewCount": "number",
+      "genuineMediaAnalysis": "string",
+      "titleSort": "string",
+      "grandparentThumb": [
+        "URL",
+        "PATH"
+      ],
+      "grandparentTitle": "string",
+      "live": "string",
+      "parentIndex": "number",
+      "parentRatingKey": "string",
+      "grandparentRatingKey": "string",
+      "parentGuid": "URL",
+      "grandparentGuid": "URL",
+      "parentTitle": "string",
+      "parentThumb": "PATH",
+      "grandparentArt": "PATH",
+      "grandparentTheme": "PATH"
+    }
+  },
+  "media.pause": {
+    "event": "string",
+    "user": "boolean",
+    "owner": "boolean",
+    "Account": {
+      "id": "number",
+      "thumb": "URL",
+      "title": "string"
+    },
+    "Server": {
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Player": {
+      "local": "boolean",
+      "publicAddress": "string",
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Metadata": {
+      "librarySectionType": "string",
+      "ratingKey": "string",
+      "key": "PATH",
+      "guid": "URL",
+      "studio": "string",
+      "type": "string",
+      "title": "string",
+      "contentRating": "string",
+      "summary": "string",
+      "rating": "number",
+      "audienceRating": "number",
+      "viewOffset": "number",
+      "lastViewedAt": "number",
+      "year": "number",
+      "tagline": "string",
+      "thumb": "PATH",
+      "art": "PATH",
+      "duration": "number",
+      "originallyAvailableAt": "string",
+      "addedAt": "number",
+      "updatedAt": "number",
+      "audienceRatingImage": "URL",
+      "chapterSource": "string",
+      "primaryExtraKey": "PATH",
+      "ratingImage": "URL",
+      "Genre": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Director": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Writer": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Producer": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Country": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Role": [
+        {
+          "id": "number",
+          "tag": "string",
+          "role": "string",
+          "thumb": "URL",
+          "count": "number"
+        }
+      ],
+      "Similar": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "cinemaTrailer": "boolean",
+      "index": "number",
+      "viewCount": "number",
+      "genuineMediaAnalysis": "string",
+      "titleSort": "string",
+      "subtype": "string",
+      "extraType": "number",
+      "grandparentThumb": "URL",
+      "grandparentTitle": "string",
+      "live": "string",
+      "parentIndex": "number"
+    }
+  },
+  "media.scrobble": {
+    "event": "string",
+    "user": "boolean",
+    "owner": "boolean",
+    "Account": {
+      "id": "number",
+      "thumb": "URL",
+      "title": "string"
+    },
+    "Server": {
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Player": {
+      "local": "boolean",
+      "publicAddress": "string",
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Metadata": {
+      "cinemaTrailer": "boolean",
+      "ratingKey": "string",
+      "key": "PATH",
+      "guid": "URL",
+      "type": "string",
+      "title": "string",
+      "summary": "string",
+      "index": "number",
+      "viewCount": "number",
+      "lastViewedAt": "number",
+      "thumb": "PATH",
+      "addedAt": "number",
+      "updatedAt": "number",
+      "genuineMediaAnalysis": "string",
+      "year": "number",
+      "art": "PATH",
+      "subtype": "string",
+      "originallyAvailableAt": "string",
+      "extraType": "number",
+      "titleSort": "string",
+      "duration": "number",
+      "librarySectionType": "string",
+      "studio": "string",
+      "contentRating": "string",
+      "rating": "number",
+      "audienceRating": "number",
+      "tagline": "string",
+      "audienceRatingImage": "URL",
+      "chapterSource": "string",
+      "primaryExtraKey": "PATH",
+      "ratingImage": "URL",
+      "Genre": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Director": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Writer": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Producer": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Country": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Role": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number",
+          "role": "string",
+          "thumb": "URL"
+        }
+      ],
+      "Similar": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "parentRatingKey": "string",
+      "grandparentRatingKey": "string",
+      "parentGuid": "URL",
+      "grandparentGuid": "URL",
+      "grandparentTitle": "string",
+      "parentTitle": "string",
+      "parentIndex": "number",
+      "parentThumb": "PATH",
+      "grandparentThumb": "PATH",
+      "grandparentArt": "PATH",
+      "grandparentTheme": "PATH"
+    }
+  },
+  "library.new": {
+    "event": "string",
+    "user": "boolean",
+    "owner": "boolean",
+    "Account": {
+      "id": "number",
+      "thumb": "URL",
+      "title": "string"
+    },
+    "Server": {
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Metadata": {
+      "librarySectionType": "string",
+      "ratingKey": "string",
+      "key": "PATH",
+      "guid": "URL",
+      "type": "string",
+      "title": "string",
+      "summary": "string",
+      "thumb": "PATH",
+      "art": "PATH",
+      "addedAt": "number",
+      "updatedAt": "number",
+      "skipParent": "boolean",
+      "grandparentRatingKey": "string",
+      "parentGuid": "URL",
+      "grandparentGuid": "URL",
+      "grandparentTitle": "string",
+      "parentTitle": "string",
+      "contentRating": "string",
+      "index": "number",
+      "parentIndex": "number",
+      "year": "number",
+      "grandparentThumb": "PATH",
+      "duration": "number",
+      "originallyAvailableAt": "string",
+      "Genre": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Field": [
+        {
+          "locked": "boolean",
+          "name": "string"
+        }
+      ]
+    },
+    "fileInfo": [
+      {
+        "path": "PATH",
+        "fieldname": "string",
+        "mimetype": "string",
+        "size": "number"
+      }
+    ]
+  },
+  "playback.started": {
+    "event": "string",
+    "user": "boolean",
+    "owner": "boolean",
+    "Account": {
+      "id": "number",
+      "thumb": "URL",
+      "title": "string"
+    },
+    "Server": {
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Player": {
+      "local": "boolean",
+      "publicAddress": "string",
+      "title": "string",
+      "uuid": "UUID"
+    },
+    "Metadata": {
+      "librarySectionType": "string",
+      "ratingKey": "string",
+      "key": "PATH",
+      "guid": "URL",
+      "studio": "string",
+      "type": "string",
+      "title": "string",
+      "contentRating": "string",
+      "summary": "string",
+      "rating": "number",
+      "audienceRating": "number",
+      "year": "number",
+      "tagline": "string",
+      "thumb": "PATH",
+      "art": "PATH",
+      "duration": "number",
+      "originallyAvailableAt": "string",
+      "addedAt": "number",
+      "updatedAt": "number",
+      "audienceRatingImage": "URL",
+      "chapterSource": "string",
+      "primaryExtraKey": "PATH",
+      "ratingImage": "URL",
+      "Genre": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Director": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Writer": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Producer": [
+        {
+          "id": "number",
+          "tag": "string"
+        }
+      ],
+      "Country": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "Role": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number",
+          "role": "string",
+          "thumb": "URL"
+        }
+      ],
+      "Similar": [
+        {
+          "id": "number",
+          "tag": "string",
+          "count": "number"
+        }
+      ],
+      "index": "number",
+      "genuineMediaAnalysis": "string",
+      "grandparentThumb": [
+        "URL",
+        "PATH"
+      ],
+      "grandparentTitle": "string",
+      "live": "string",
+      "parentIndex": "number",
+      "parentRatingKey": "string",
+      "grandparentRatingKey": "string",
+      "parentGuid": "URL",
+      "grandparentGuid": "URL",
+      "parentTitle": "string",
+      "parentThumb": "PATH",
+      "grandparentArt": "PATH",
+      "grandparentTheme": "PATH"
+    },
+    "fileInfo": [
+      {
+        "path": "PATH",
+        "fieldname": "string",
+        "mimetype": "string",
+        "size": "number"
+      }
+    ]
+  }
+}
