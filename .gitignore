@@ -1,6 +1,9 @@
 # Test data dirs
 test/data
 
+# Build dir
+dist/
+
 # Logs
 logs
 *.log
