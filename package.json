@@ -1,6 +1,6 @@
 {
   "name": "plex-webhooks",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Server for receiving plex webhooks. Useful for automation or action related local scripting.",
   "main": "./dist/lib/index.js",
   "types": "./dist/lib/index.d.ts",
